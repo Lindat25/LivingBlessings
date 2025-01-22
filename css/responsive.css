@@ -1,0 +1,29 @@
+/* Programs Section */
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 0;
+  }
+
+  .contact-info {
+    margin-top: 40px;
+  }
+}
+
+/* Programs Section */
+@media (max-width: 768px) {
+  .program-card .card-body {
+    padding: 20px;
+  }
+
+  .programs h2 {
+    font-size: 30px;
+  }
+
+  .program-card .card-title {
+    font-size: 20px;
+  }
+
+  .program-card .card-subtitle {
+    font-size: 14px;
+  }
+}
