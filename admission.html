@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form - 2025</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      /* Custom CSS (style.css) */
+      body {
+        font-family: "Arial", sans-serif;
+      }
+
+      .navbar {
+        background-color: #2d87f0;
+      }
+
+      .navbar-brand {
+        font-size: 1.5rem;
+        color: #fff !important;
+      }
+
+      .admission-section {
+        background-color: #f9f9f9;
+      }
+
+      h2 {
+        font-size: 2rem;
+        color: #2d87f0;
+      }
+
+      form {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-label {
+        font-weight: bold;
+      }
+
+      button {
+        background-color: #2d87f0;
+        color: #fff;
+        border: none;
+        padding: 12px 30px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #1e67c0;
+      }
+
+      footer {
+        background-color: #2d87f0;
+      }
+
+      footer p {
+        margin: 0;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Living Blessing Pre School</a>
+      </div>
+    </nav>
+
+    <!-- Admission Form Section -->
+    <section class="admission-section bg-light py-5" id="admission">
+      <div class="container">
+        <h2 class="text-center mb-4">Admission Form - 2025</h2>
+        <p class="text-center mb-5">
+          Enroll your little one for the 2025 academic year. We are excited to
+          welcome new students!
+        </p>
+
+        <form id="admissionForm">
+          <!-- Parent Information -->
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="parentName" class="form-label">Parent's Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="parentName"
+                name="parent_name"
+                placeholder="Enter Parent's Full Name"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="parentEmail" class="form-label">Parent's Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="parentEmail"
+                name="parent_email"
+                placeholder="Enter Parent's Email"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Child Information -->
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="childName" class="form-label">Child's Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="childName"
+                name="child_name"
+                placeholder="Enter Child's Full Name"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="childDOB" class="form-label"
+                >Child's Date of Birth</label
+              >
+              <input
+                type="date"
+                class="form-control"
+                id="childDOB"
+                name="child_dob"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Enrollment Information -->
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="grade" class="form-label">Grade</label>
+              <select class="form-control" id="grade" name="grade" required>
+                <option value="" disabled selected>Select Grade</option>
+                <option value="Pre-K">Pre-K</option>
+                <option value="Kindergarten">Kindergarten</option>
+                <option value="Grade 1">Grade 1</option>
+                <option value="Grade 2">Grade 2</option>
+                <option value="Grade 3">Grade 3</option>
+              </select>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="entryYear" class="form-label">Entry Year</label>
+              <input
+                type="text"
+                class="form-control"
+                id="entryYear"
+                value="2025"
+                readonly
+              />
+            </div>
+          </div>
+
+          <!-- Additional Information -->
+          <div class="mb-3">
+            <label for="message" class="form-label"
+              >Message or Special Requests</label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Any special requests or messages for us?"
+              required
+            ></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">
+              Submit Application
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2025 Living Blessing Pre School. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
