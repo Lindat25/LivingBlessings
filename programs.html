@@ -2,7 +2,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Programs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +17,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Living Blessing Pre School</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.jpg" alt="Logo" class="logo-img" />
+          <span class="logo-text">Living Blessings Pri School</span>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,13 +54,15 @@
     <!-- Programs Section -->
     <section class="programs" id="programs">
       <div class="container">
-        <h2 class="text-center mb-5">Our Programs</h2>
+        <div class="section-header text-center">
+          <h2>Our Programs</h2>
+        </div>
         <div class="row g-4">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="card program-card">
               <div class="card-body">
                 <h5 class="card-title">Toddler Program</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Ages 2-3 years</h6>
+                <h6 class="card-subtitle">Ages 2-3 years</h6>
                 <p class="card-text">
                   Introduction to basic concepts, social skills development, and
                   play-based learning in a Christian environment.
@@ -61,11 +70,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="card program-card">
               <div class="card-body">
                 <h5 class="card-title">Pre-School Program</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Ages 3-4 years</h6>
+                <h6 class="card-subtitle">Ages 3-4 years</h6>
                 <p class="card-text">
                   Focus on literacy, numeracy foundations, and Christian values
                   through interactive learning.
@@ -73,11 +82,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="card program-card">
               <div class="card-body">
                 <h5 class="card-title">Kindergarten</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Ages 4-5 years</h6>
+                <h6 class="card-subtitle">Ages 4-5 years</h6>
                 <p class="card-text">
                   Advanced learning with emphasis on writing, reading, and
                   Christian character building.
@@ -85,11 +94,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
             <div class="card program-card">
               <div class="card-body">
                 <h5 class="card-title">Primary School</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Grade 1-3</h6>
+                <h6 class="card-subtitle">Grade 1-3</h6>
                 <p class="card-text">
                   Comprehensive academic curriculum integrated with Christian
                   education and life skills.
@@ -100,7 +109,58 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <div class="container">
+        <h2>Join Our Learning Family</h2>
+        <p>Give your child the best start in education</p>
+        <button class="btn btn-primary btn-lg mt-4">Schedule a Visit</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <img src="images/logo1.png" alt="School Logo" />
+          <p>Excellence in Education Since 1990</p>
+        </div>
+        <div class="footer-grid">
+          <div class="contact-info">
+            <h5>Contact Us</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Your School Address</p>
+            <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+            <p><i class="fas fa-envelope"></i> info@school.com</p>
+          </div>
+          <div>
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="admission.html">Admissions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="programs.html">Programs</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Connect With Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Alumni</a></li>
+            </ul>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
