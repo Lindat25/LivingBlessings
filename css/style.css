@@ -829,3 +829,147 @@ textarea.form-control {
     margin-bottom: 1.5rem;
   }
 }
+
+/* Responsive Adjustments for about hero */
+@media (max-width: 992px) {
+  .about-hero {
+    height: 60vh;
+  }
+
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-hero .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero {
+    height: 50vh;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive for hero section */
+@media (max-width: 992px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 70px);
+  }
+
+  .hero h1 {
+    font-size: 2.75rem;
+  }
+
+  .hero .lead {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding-top: 60px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 60px);
+    padding: 40px 15px;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero .lead {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .lead {
+    font-size: 0.9rem;
+  }
+}
+/* Responsive for about section on home */
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-content {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .btn-primary {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 50px 0;
+  }
+
+  .about-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive Adjustments for navbar */
+@media (max-width: 576px) {
+  .logo-img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+  }
+
+  .logo-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+  }
+}
