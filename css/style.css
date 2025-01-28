@@ -249,7 +249,7 @@ textarea.form-control {
 
 .btn-secondary {
   background-color: white;
-  color: #3182ce;
+  color: #555;
 }
 
 .btn-secondary:hover {
@@ -351,7 +351,7 @@ textarea.form-control {
 
 .feature-card:hover .feature-icon {
   transform: scale(1.1);
-  background: #2c5282;
+  background: #555;
 }
 
 /* Feature Content */
@@ -655,7 +655,7 @@ textarea.form-control {
   left: 0;
   width: 40px;
   height: 2px;
-  background: #007bff;
+  background: #555;
   transition: width 0.3s ease;
 }
 
@@ -794,7 +794,7 @@ textarea.form-control {
 }
 
 .program-card .card-title {
-  color: #007bff;
+  color: #555;
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
